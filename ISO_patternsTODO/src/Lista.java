@@ -13,17 +13,26 @@ public abstract class Lista {
 	//Metodos
 	
 	public int getElemento(int pos) {
+		int i = 0;
+		for(int aux : elementos) {
+			if(i+1 == pos) {
+				return aux;
+			}else {
+				i++;
+			}
+		}	
 		
-		return 0;
+		return -1;
 	}
 	
-	public void insertarElemento(int pos) {
-		
-		
+	public void insertarElemento(int elem) {		
+		elementos.add(elem);
 	}
 	
 	public void visualizar() {		
-		
+		for(int aux : elementos) {
+			System.out.println(aux+" ");
+		}
 	}
 	
 	public abstract void configurar();
