@@ -12,10 +12,6 @@ public class Cliente {
 	}
 
 	//Metodos
-	//Esto es un comentario de prueba
-	//Segundo comentario de prueba
-	//tercer comentario de prueba
-
 	
 	public void visualizaElems() {
 		this.lista.visualizar();
