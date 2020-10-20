@@ -1,5 +1,5 @@
 
-public class ConcretaFactoryIngles {
+public class ConcretaFactoryIngles implements AbstractFactoryIdiomas{
 	
 	//Atributos
 	private MonedaUSA moneda;

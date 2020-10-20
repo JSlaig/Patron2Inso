@@ -1,9 +1,10 @@
+import java.util.ArrayList;
 
-public class ListaEspañol {
+public class ListaEspañol extends Lista{
 
 		//Constructor
-		public ListaEspañol() {
-			
+		public ListaEspañol() {			
+			elementos = new ArrayList<Integer>();			
 		}
 		
 		//Metodos

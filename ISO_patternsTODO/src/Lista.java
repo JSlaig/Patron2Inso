@@ -3,12 +3,7 @@ import java.util.ArrayList;
 public abstract class Lista {
 	
 	//Atributos
-	private ArrayList<Integer> elementos;
-	
-	//Constructor
-	public Lista() {
-		elementos = new ArrayList<Integer>();
-	}
+	ArrayList<Integer> elementos;	
 	
 	//Metodos
 	

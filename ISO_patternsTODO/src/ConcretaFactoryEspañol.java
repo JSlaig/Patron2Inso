@@ -1,5 +1,5 @@
  
-public class ConcretaFactoryEspañol {
+public class ConcretaFactoryEspañol implements AbstractFactoryIdiomas{
 	
 	//Atributos
 		private MonedaEspaña moneda;
