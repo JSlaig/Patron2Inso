@@ -6,8 +6,7 @@ public class ConcretaFactoryEspañol {
 		private ListaEspañol lista;
 		
 		//Constructor 2
-		public ConcretaFactoryEspañol() {
-			
+		public ConcretaFactoryEspañol() {			
 			this.moneda = new MonedaEspaña(1.0);
 			this.lista = new ListaEspañol();		
 		}

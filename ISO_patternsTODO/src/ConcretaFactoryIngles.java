@@ -6,8 +6,7 @@ public class ConcretaFactoryIngles {
 	private ListaIngles lista;
 	
 	//Constructor
-	public ConcretaFactoryIngles() {
-		
+	public ConcretaFactoryIngles() {		
 		this.moneda = new MonedaUSA(1.18);
 		this.lista = new ListaIngles();		
 	}
