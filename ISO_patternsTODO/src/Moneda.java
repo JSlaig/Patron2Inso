@@ -2,15 +2,9 @@
 public abstract class Moneda {
 	
 	//Atributos
-	private String texto;
-	private double valor;
+	String texto;
+	double valor;
 	
-	
-	//Constructor
-	public Moneda() {
-		
-	}
-
 	//Metodos
 	
 	public String getTexto() {
