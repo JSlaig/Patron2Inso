@@ -19,7 +19,7 @@ public class ConcretaFactoryIngles {
 	}
 	
 	public ListaIngles getLista() {
-		return this.lista; 
+		return this.lista;  
 	}
 
 }
