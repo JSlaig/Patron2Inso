@@ -1,5 +1,5 @@
 
-public class MonedaEspaña {
+public class MonedaEspaña extends Moneda{
 
 	//Atributos
 	private double valor;

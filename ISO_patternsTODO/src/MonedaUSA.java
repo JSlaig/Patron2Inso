@@ -1,5 +1,5 @@
 
-public class MonedaUSA {
+public class MonedaUSA extends Moneda{
 	
 	//Atributos
 	private double valor;
